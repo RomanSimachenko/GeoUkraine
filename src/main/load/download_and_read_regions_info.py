@@ -19,7 +19,6 @@ def download_regions():
 
     regions_url = "https://registry.edbo.gov.ua/files/regions.xlsx"
     wget.download(regions_url, regions_path)
-    print("\n[+] Regions downloaded.\n")
 
 
 def read_regions_info() -> tuple:
@@ -38,5 +37,4 @@ def read_regions_info() -> tuple:
     for index in range(len(ids)):
         regions += (Regions(ids[index], names[index].strip()),)
 
-    print("\n[+] Regions readed.\n")
     return regions

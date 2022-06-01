@@ -1,5 +1,6 @@
 import os
 from pathlib import Path
+from celery.schedules import crontab
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -135,13 +136,15 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Celery Configuration Options
 
-# CELERY_BROKER_URL = 'redis://localhost:6379'
+CELERY_WORKER_REDIRECT_STDOUTS = False
 
-# CELERY_RESULT_BACKEND = 'redis://localhost:6379'
+CELERY_BROKER_URL = 'redis://localhost:6379'
 
-# CELERY_BEAT_SCHEDULE = {
-#     "update_universities": {
-#         "task": "src.main.tasks.update_universities",
-#         "schedule": crontab(minute="*/1"),
-#     },
-# }
+CELERY_RESULT_BACKEND = 'redis://localhost:6379'
+
+CELERY_BEAT_SCHEDULE = {
+    "update_universities": {
+        "task": "src.main.tasks.update_universities",
+        "schedule": crontab(minute="*/1"),
+    },
+}

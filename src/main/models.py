@@ -1,12 +1,13 @@
 from django.db import models
-from django.utils.translation import gettext_lazy as _
+from django.utils.translation import gettext as _
 
 
 class Universities(models.Model):
     """Universities"""
-    id = models.PositiveBigIntegerField(_("ID"), primary_key=True, unique=True)
+    id = models.PositiveBigIntegerField(_("id"), primary_key=True, unique=True)
     parent_id = models.PositiveBigIntegerField(
         _("parent ID"), null=True, blank=True)
+    place_id = models.CharField(_("place id"), max_length=200, null=True, blank=True)
 
     name = models.CharField(_("name"), max_length=1000)
     short_name = models.CharField(

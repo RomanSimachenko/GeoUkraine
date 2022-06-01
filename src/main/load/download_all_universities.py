@@ -21,5 +21,3 @@ def download_universities():
             wget.download(university_url, university_path)
         except HTTPError:
             continue
-
-    print("\n[+] Universities downloaded.\n")

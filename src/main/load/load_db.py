@@ -8,13 +8,12 @@ import os
 from django.core.exceptions import ObjectDoesNotExist
 
 
-def seed_db(data: List, region_id: int, region_name: str) -> str:
+def seed_db(data: List, region_id: int, region_name: str):
     """Seeds Django data base using taken data"""
-    print(f"\nProcessing {region_id}: {region_name}.\n")
 
     region = models.Regions.objects.get_or_create(
         id=region_id, name=region_name)[0]
-
+    
     for university in data:
         un_id = int(university['university_id'].strip())
         un_name = university['university_name'].strip()
@@ -22,11 +21,12 @@ def seed_db(data: List, region_id: int, region_name: str) -> str:
         un_region_name = university['region_name'].strip()
         un_koatuu_name = university['koatuu_name'].strip()
 
-        coordinates = get_coordinates(
+        place_id, coordinates = get_coordinates(
             un_name, un_address, un_region_name, un_koatuu_name)
 
         university_dict = {
             "id": un_id,
+            "place_id": place_id,
             "name": un_name,
             "phone": university['university_phone'].strip(),
             "email": university['university_email'].strip(),
@@ -40,7 +40,7 @@ def seed_db(data: List, region_id: int, region_name: str) -> str:
             "is_from_crimea": True if university['is_from_crimea'].strip().lower() == "так" else False,
             "lat": coordinates.lat,
             "lng": coordinates.lng,
-
+            
             "registration_year": university['registration_year'].strip() if university['registration_year'] else None,
             "parent_id": int(university['university_parent_id'].strip()) if university['university_parent_id'] else None,
             "short_name": university['university_short_name'].strip() if university['university_short_name'] else None,
@@ -67,11 +67,7 @@ def seed_db(data: List, region_id: int, region_name: str) -> str:
 
         un = models.Universities.objects.create(**university_dict)
 
-        print(un)
-
         region.universities.add(un)
-
-    return f"\n{region_id}: {region_name} - added.\n"
 
 
 # Run the `main` function from the Django shell (python3 manage.py shell)!!!
@@ -88,7 +84,6 @@ def main():
             json_data = json.load(file)
 
         region_id, region_name = (item.strip() for item in path.split(':'))
-        print(seed_db(json_data, int(region_id),
-              region_name.split('.')[0].strip()))
+        seed_db(json_data, int(region_id), region_name.split('.')[0].strip())
 
         break

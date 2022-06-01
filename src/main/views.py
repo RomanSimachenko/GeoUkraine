@@ -3,4 +3,6 @@ from . import models
 
 
 def IndexView(request):
-    return render(request, "main/index.html", context={})
+    region = models.Regions.objects.get(id=71)
+    universities = region.universities.all()
+    return render(request, "main/index.html", context={"universities": universities})
