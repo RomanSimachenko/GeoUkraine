@@ -131,3 +131,5 @@ dmypy.json
 
 /venv
 setenv.sh
+tmp.py
+1.py

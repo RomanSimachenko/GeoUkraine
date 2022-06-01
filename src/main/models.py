@@ -1,6 +1,5 @@
-from tabnanny import verbose
 from django.db import models
-from django.utils.translation import gettext as _
+from django.utils.translation import gettext_lazy as _
 
 
 class Universities(models.Model):
@@ -15,10 +14,9 @@ class Universities(models.Model):
     name_en = models.CharField(
         _("name en"), max_length=1000, null=True, blank=True)
 
-    phone = models.CharField(_("phone"), max_length=16, unique=True)
-    email = models.EmailField(_("email"), unique=True)
-    site = models.CharField(_("site"), max_length=200,
-                            unique=True, null=True, blank=True)
+    phone = models.CharField(_("phone"), max_length=16)
+    email = models.EmailField(_("email"))
+    site = models.CharField(_("site"), max_length=200, null=True, blank=True)
 
     address = models.CharField(_("address"), max_length=400)
     address_u = models.CharField(
@@ -59,6 +57,9 @@ class Universities(models.Model):
     close_date = models.DateField(_("close date"), null=True, blank=True)
     primitki = models.TextField(_("primitki"), null=True, blank=True)
 
+    lat = models.FloatField(_("latitude"))
+    lng = models.FloatField(_("longitude"))
+
     def __str__(self) -> str:
         return f"{self.id} - {self.name}"
 
@@ -66,3 +67,17 @@ class Universities(models.Model):
         ordering = ('id',)
         verbose_name = "university"
         verbose_name_plural = "universities"
+
+
+class Regions(models.Model):
+    id = models.PositiveBigIntegerField(_("ID"), primary_key=True, unique=True)
+    name = models.CharField(_("name"), max_length=500)
+    universities = models.ManyToManyField(Universities)
+
+    def __str__(self) -> str:
+        return f"{self.id}: {self.name}"
+
+    class Meta:
+        ordering = ('id',)
+        verbose_name = "region"
+        verbose_name_plural = "regions"
