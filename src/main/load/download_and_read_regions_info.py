@@ -22,7 +22,7 @@ def download_regions():
 
 
 def read_regions_info() -> tuple:
-    """Read region ids and names from downloaded excel file"""
+    """Reads region IDs and names from downloaded excel file"""
     download_regions()
 
     regions_path = str(settings.BASE_DIR) + "/src/main/load/data/regions.xlsx"

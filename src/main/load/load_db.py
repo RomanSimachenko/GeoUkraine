@@ -9,7 +9,7 @@ from django.core.exceptions import ObjectDoesNotExist
 
 
 def seed_db(data: List, region_id: int, region_name: str):
-    """Seeds Django data base using taken data"""
+    """Loads Django data base using taken data"""
 
     region = models.Regions.objects.get_or_create(
         id=region_id, name=region_name)[0]
@@ -86,4 +86,4 @@ def main():
         region_id, region_name = (item.strip() for item in path.split(':'))
         seed_db(json_data, int(region_id), region_name.split('.')[0].strip())
 
-        break
+        break # only for 1 region
