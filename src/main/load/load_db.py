@@ -8,11 +8,14 @@ import os
 from django.core.exceptions import ObjectDoesNotExist
 
 
+UNIVERSITIES_PATH = str(settings.BASE_DIR) + \
+        "/src/main/load/data/universities"
+
+
 def seed_db(data: List, region_id: int, region_name: str):
     """Loads Django data base using taken data"""
 
-    region = models.Regions.objects.get_or_create(
-        id=region_id, name=region_name)[0]
+    region = models.Regions.objects.get_or_create(id=region_id, name=region_name)[0]
     
     for university in data:
         un_id = int(university['university_id'].strip())
@@ -74,16 +77,13 @@ def seed_db(data: List, region_id: int, region_name: str):
 def main():
     download_universities()
 
-    universities_path = str(settings.BASE_DIR) + \
-        "/src/main/load/data/universities"
+    region_json_names = os.listdir(UNIVERSITIES_PATH)
 
-    university_json_paths = os.listdir(universities_path)
-
-    for path in university_json_paths:
-        with open(universities_path + '/' + path) as file:
+    for name in region_json_names:
+        with open(UNIVERSITIES_PATH + '/' + name) as file:
             json_data = json.load(file)
 
-        region_id, region_name = (item.strip() for item in path.split(':'))
+        region_id, region_name = (item.strip() for item in name.split(':'))
         seed_db(json_data, int(region_id), region_name.split('.')[0].strip())
 
         break # only for 1 region

@@ -5,19 +5,23 @@ import os
 from urllib.error import HTTPError
 
 
+UNIVERSITY_PATH = str(settings.BASE_DIR) + "/src/main/load/data/universities/{}: {}.json"
+
+UNIVERSITY_URL = "https://registry.edbo.gov.ua/api/universities/?ut=1&lc={}&exp=json"
+
+
 def download_universities():
     """Download all the universities as json"""
     regions = read_regions_info()
 
     for region in regions:
-        university_path = str(settings.BASE_DIR) + \
-            f"/src/main/load/data/universities/{region.id}: {region.name}.json"
-        university_url = f"https://registry.edbo.gov.ua/api/universities/?ut=1&lc={region.id}&exp=json"
+        now_un_path = UNIVERSITY_PATH.format(region.id, region.name)
+        now_un_url = UNIVERSITY_URL.format(region.id)
 
-        if os.path.exists(university_path):
-            os.remove(university_path)
+        if os.path.exists(now_un_path):
+            os.remove(now_un_path)
 
         try:
-            wget.download(university_url, university_path)
+            wget.download(now_un_url, now_un_path)
         except HTTPError:
             continue
