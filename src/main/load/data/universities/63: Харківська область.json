@@ -145,7 +145,7 @@
         "university_email": "info@btu.kharkov.ua",
         "university_site": "",
         "university_director_post": "В.о. ректора",
-        "university_director_fio": "Тихонченко Руслан Сергійович",
+        "university_director_fio": "Кудряшов Андрій Ігорович",
         "close_date": null,
         "primitki": ""
     },
@@ -176,8 +176,8 @@
         "university_site": "http:\/\/xtt.kharkov.ua\/",
         "university_director_post": "Директор",
         "university_director_fio": "Ємельянова Олена Андріївна",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Державний вищий навчальний заклад \"Харківський коледж транспортних технологій\"",
@@ -266,8 +266,8 @@
         "university_site": "hmu.net.ua",
         "university_director_post": "Директор",
         "university_director_fio": "Єфременко Олена Олексіївна",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Медичний фаховий коледж Харківського національного медичного університету",
@@ -351,13 +351,13 @@
         "region_name_u": "Донецька область",
         "koatuu_name_u": "Бахмут",
         "university_address_u": "вул. Носакова, 9 А",
-        "university_phone": "(050)950-85-77",
+        "university_phone": "(066)195-25-99, (050)254-92-20)",
         "university_email": "nnppiuipa@ukr.net",
         "university_site": "http:\/\/www.nnppi.in.ua",
         "university_director_post": "Керівник",
         "university_director_fio": "Коломієць Валерій Віталійович",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Національна академія Національної гвардії України",
@@ -386,8 +386,8 @@
         "university_site": "nangu.edu.ua",
         "university_director_post": "Начальник Національної академії",
         "university_director_fio": "Соколовський Сергій Анатолійович",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Національний аерокосмічний університет ім. М. Є. Жуковського \"Харківський авіаційний інститут\"",
@@ -686,8 +686,8 @@
         "university_site": "https:\/\/khim.edu.ua\/",
         "university_director_post": "Ректор",
         "university_director_fio": "Остапенко Вікторія Миколаївна",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-06",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Приватний заклад вищої освіти \"Харківський технологічний університет \"ШАГ\"",
@@ -836,8 +836,8 @@
         "university_site": "www.uipa.edu.ua",
         "university_director_post": "Ректор",
         "university_director_fio": "Коваленко Олена Едуардівна",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Український державний університет залізничного транспорту",
@@ -956,8 +956,8 @@
         "university_site": "www.ic.ac.kharkov.ua",
         "university_director_post": "Ректор",
         "university_director_fio": "Шейко Василь Миколайович",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Харківська державна академія фізичної культури",
@@ -1046,8 +1046,8 @@
         "university_site": "www.khdak-xatt.edu.ua",
         "university_director_post": "Директор",
         "university_director_fio": "Сударь Віктор Павлович",
-        "close_date": "2022-06-01",
-        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
+        "close_date": null,
+        "primitki": ""
     },
     {
         "university_name": "Харківський державний автомобільно-дорожній коледж",
@@ -1132,8 +1132,8 @@
         "koatuu_name_u": "Харків",
         "university_address_u": "просп. Московський, 24",
         "university_phone": "0577326395; 0577325949; 0577325925",
-        "university_email": "hipt2015@ukr.net",
-        "university_site": "www.hipt.com.ua",
+        "university_email": "hdppk1944@gmail.com; hipt2015@ukr.net",
+        "university_site": "http:\/\/hdppk.com.ua",
         "university_director_post": "Директор",
         "university_director_fio": "Сайчук Олександр Васильович",
         "close_date": null,
@@ -1166,8 +1166,8 @@
         "university_site": "khoeti.com.ua",
         "university_director_post": "директор",
         "university_director_fio": "Галкіна Ольга Андріївна",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Харківський інститут Приватного акціонерного товариства \"Вищий навчальний заклад \"Міжрегіональна Академія управління персоналом\"",
@@ -1256,8 +1256,8 @@
         "university_site": "khmk.edu.ua",
         "university_director_post": "Тимчасово виконуюча обов’язки директора",
         "university_director_fio": "Міщенко Світлана Григорівна",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Харківський механіко-технологічний фаховий коледж імені О.О. Морозова",
@@ -1466,8 +1466,8 @@
         "university_site": "www.univd.edu.ua",
         "university_director_post": "Ректор",
         "university_director_fio": "Сокуренко Валерій Васильович",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Харківський національний університет імені В.Н. Каразіна",
@@ -1504,7 +1504,7 @@
         "university_id": "98",
         "university_parent_id": null,
         "university_short_name": "ХНУМ",
-        "university_name_en": "Kharkiv National I.P. Kotlyarevsky University of Arts",
+        "university_name_en": "Kharkiv I.P. Kotlyarevsky National University of Arts",
         "is_from_crimea": "так",
         "registration_year": "1917",
         "university_edrpou": "02214350",
@@ -1526,8 +1526,8 @@
         "university_site": "num.kharkiv.ua",
         "university_director_post": "Ректор",
         "university_director_fio": "Говорухіна Наталія Олегівна",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Харківський національний університет міського господарства імені О.М. Бекетова",
@@ -1584,10 +1584,10 @@
         "university_phone": "8(057)700-21-65",
         "university_email": "info@hups.mil.gov.ua",
         "university_site": "http:\/\/www.hups.mil.gov.ua",
-        "university_director_post": "Т.в.о. начальника університету",
-        "university_director_fio": "Тюрін Віталій Вікторович",
-        "close_date": null,
-        "primitki": ""
+        "university_director_post": "Начальник університету",
+        "university_director_fio": "Бережний Андрій Олександрович",
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Харківський національний університет радіоелектроніки",
@@ -1680,36 +1680,6 @@
         "primitki": ""
     },
     {
-        "university_name": "Харківський торговельно-економічний коледж Київського національного торговельно-економічного університету",
-        "university_id": "813",
-        "university_parent_id": "196",
-        "university_short_name": "ХТЕК КНТЕУ",
-        "university_name_en": "Kharkiv College of Trade and Economics of Kyiv National University of Trade and Economics",
-        "is_from_crimea": "",
-        "registration_year": "2005",
-        "university_edrpou": "33297933",
-        "university_type_name": "Заклад вищої освіти",
-        "university_financing_type_name": "Державна",
-        "university_governance_type_name": "Міністерство освіти і науки України",
-        "post_index": "61045",
-        "koatuu_id": "6310136300",
-        "region_name": "Харківська область",
-        "koatuu_name": "Харків",
-        "university_address": "вул. Клочківська, 202",
-        "post_index_u": "61045",
-        "koatuu_id_u": "6310136300",
-        "region_name_u": "Харківська область",
-        "koatuu_name_u": "Харків",
-        "university_address_u": "вул. Клочківська, 202",
-        "university_phone": "057 340 45 43; 057 340 05 87",
-        "university_email": "htek@knute.edu.ua",
-        "university_site": "www.htek.com.ua",
-        "university_director_post": "Виконуюча обов’язки директора",
-        "university_director_fio": "Гурова Капіталіна Дмитрівна",
-        "close_date": null,
-        "primitki": ""
-    },
-    {
         "university_name": "Лозівська філія Харківського державного автомобільно-дорожнього коледжу",
         "university_id": "1409",
         "university_parent_id": "803",
@@ -1766,7 +1736,7 @@
         "university_site": "lipdak.in.ua",
         "university_director_post": "Директор",
         "university_director_fio": "Таркан Микола Петрович",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     }
 ]

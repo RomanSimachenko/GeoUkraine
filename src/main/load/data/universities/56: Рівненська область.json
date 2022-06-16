@@ -356,8 +356,8 @@
         "university_site": "",
         "university_director_post": "Ректор",
         "university_director_fio": "Черній Алла Леонідівна",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Відокремлений структурний підрозділ закладу вищої освіти \"Відкритий міжнародний університет розвитку людини \"Україна\" Дубенська філія",
@@ -394,7 +394,7 @@
         "university_id": "120",
         "university_parent_id": null,
         "university_short_name": "НУОА",
-        "university_name_en": "The National University of \"Ostroh Academy\"",
+        "university_name_en": "The National University of Ostroh Academy",
         "is_from_crimea": "так",
         "registration_year": "1994",
         "university_edrpou": "22554101",
@@ -416,8 +416,8 @@
         "university_site": "http:\/\/www.oa.edu.ua",
         "university_director_post": "Ректор",
         "university_director_fio": "Пасічник Ігор Демидович",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Надслучанський інститут Національного університету водного господарства та природокористування",
@@ -446,8 +446,8 @@
         "university_site": "",
         "university_director_post": "Директор",
         "university_director_fio": "Фізик Ігор Васильович",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Товариство з обмеженою відповідальністю Західноукраїнський коледж \"Полісся\"",
@@ -476,8 +476,8 @@
         "university_site": "kollegepolissy.at.ua",
         "university_director_post": "Директор коледжу",
         "university_director_fio": "Лавренюк Валерій Михайлович",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Відокремлений підрозділ \"Рокитнівський фаховий медичний коледж\" комунального закладу вищої освіти \"Рівненська медична академія\" Рівненської обласної ради\"",

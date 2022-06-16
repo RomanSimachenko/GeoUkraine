@@ -26,8 +26,8 @@
         "university_site": "ami.edu.ua",
         "university_director_post": "Директор",
         "university_director_fio": "Лисий Олександр Пилипович",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Відокремлений підрозділ \"Одеський факультет Київського національного університету культури і мистецтв\"",
@@ -146,8 +146,8 @@
         "university_site": "http:\/\/vaodessa.org.ua",
         "university_director_post": "ТВО начальника Військової академії (м. Одеса)",
         "university_director_fio": "Клят Юрій Олександрович",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Державний заклад «Південноукраїнський національний педагогічний університет імені К.Д. Ушинського»",
@@ -210,36 +210,6 @@
         "primitki": ""
     },
     {
-        "university_name": "Державний університет \"Одеська політехніка\"",
-        "university_id": "5754",
-        "university_parent_id": null,
-        "university_short_name": "Одеська політехніка (ОП)",
-        "university_name_en": "Odessa Polytechnic State University",
-        "is_from_crimea": "так",
-        "registration_year": "1918",
-        "university_edrpou": "43861328",
-        "university_type_name": "Заклад вищої освіти",
-        "university_financing_type_name": "Державна",
-        "university_governance_type_name": "Міністерство освіти і науки України",
-        "post_index": "65044",
-        "koatuu_id": "5110100000",
-        "region_name": "Одеська область",
-        "koatuu_name": "Одеса",
-        "university_address": "просп. Шевченка, 1",
-        "post_index_u": "65044",
-        "koatuu_id_u": "5110100000",
-        "region_name_u": "Одеська область",
-        "koatuu_name_u": "Одеса",
-        "university_address_u": "просп. Шевченка, 1",
-        "university_phone": "+380(48)-722-19-92",
-        "university_email": "mail@op.edu.ua",
-        "university_site": "https:\/\/op.edu.ua",
-        "university_director_post": "Ректор",
-        "university_director_fio": "Оборський Геннадій Олександрович",
-        "close_date": null,
-        "primitki": ""
-    },
-    {
         "university_name": "Інститут Військово-Морських Сил Національного університету \"Одеська морська академія\"",
         "university_id": "3848",
         "university_parent_id": "161",
@@ -266,8 +236,8 @@
         "university_site": "",
         "university_director_post": "Т.в.о. начальника Інституту Військово-Морських Сил Національного університету \"Одеська морська академія\"",
         "university_director_fio": "Кіріакіді Максим Вікторович",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Комунальний заклад вищої освіти \"Одеська академія неперервної освіти Одеської обласної ради\"",
@@ -356,8 +326,8 @@
         "university_site": "mu.edu.ua",
         "university_director_post": "В.о. ректора",
         "university_director_fio": "Райчева Лариса Іванівна",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Національний університет \"Одеська морська академія\"",
@@ -386,6 +356,36 @@
         "university_site": "www.onma.edu.ua",
         "university_director_post": "Ректор",
         "university_director_fio": "Міюсов Михайло Валентинович",
+        "close_date": null,
+        "primitki": ""
+    },
+    {
+        "university_name": "Національний університет \"Одеська політехніка\"",
+        "university_id": "5754",
+        "university_parent_id": null,
+        "university_short_name": "Одеська політехніка",
+        "university_name_en": "Odessa Polytechnic National University",
+        "is_from_crimea": "так",
+        "registration_year": "1918",
+        "university_edrpou": "43861328",
+        "university_type_name": "Заклад вищої освіти",
+        "university_financing_type_name": "Державна",
+        "university_governance_type_name": "Міністерство освіти і науки України",
+        "post_index": "65044",
+        "koatuu_id": "5110100000",
+        "region_name": "Одеська область",
+        "koatuu_name": "Одеса",
+        "university_address": "просп. Шевченка, 1",
+        "post_index_u": "65044",
+        "koatuu_id_u": "5110100000",
+        "region_name_u": "Одеська область",
+        "koatuu_name_u": "Одеса",
+        "university_address_u": "просп. Шевченка, 1",
+        "university_phone": "+380(48)-722-19-92",
+        "university_email": "mail@op.edu.ua",
+        "university_site": "https:\/\/op.edu.ua",
+        "university_director_post": "Ректор",
+        "university_director_fio": "Оборський Геннадій Олександрович",
         "close_date": null,
         "primitki": ""
     },
@@ -476,8 +476,8 @@
         "university_site": "www.odma.edu.ua",
         "university_director_post": "Ректор",
         "university_director_fio": "Олійник Олександр Леонідович",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Одеський державний аграрний університет",
@@ -506,8 +506,8 @@
         "university_site": "osau.edu.ua",
         "university_director_post": "ректор",
         "university_director_fio": "Брошков Михайло Михайлович",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Одеський державний екологічний університет",
@@ -566,8 +566,8 @@
         "university_site": "oduvs.edu.ua",
         "university_director_post": "Ректор",
         "university_director_fio": "Кузніченко Сергій Олександрович",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Одеський інститут Приватного акціонерного товариства \"Вищий навчальний заклад \"Міжрегіональна Академія управління персоналом\"",
@@ -686,8 +686,8 @@
         "university_site": "http:\/\/oneu.edu.ua",
         "university_director_post": "Ректор",
         "university_director_fio": "Ковальов Анатолій Іванович",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Одеський національний медичний університет",
@@ -836,8 +836,8 @@
         "university_site": "server.odessa.ua",
         "university_director_post": "Директор",
         "university_director_fio": "Отрадська Тетяна Василівна",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Приватний вищий навчальний заклад \"Одеський морський інститут\" у вигляді ТОВ",
@@ -866,8 +866,8 @@
         "university_site": "",
         "university_director_post": "Ректор",
         "university_director_fio": "Кузнецов Сергій Олександрович",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Приватний заклад вищої освіти \"Одеський технологічний університет \"ШАГ\"\"",
@@ -1046,8 +1046,8 @@
         "university_site": "",
         "university_director_post": "Директор",
         "university_director_fio": "Подлисецький Олександр Олександрович",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Дунайський інститут водного транспорту Державного університету інфраструктури та технологій",
@@ -1136,8 +1136,8 @@
         "university_site": "http:\/\/www.idgu.edu.ua\/",
         "university_director_post": "Ректор",
         "university_director_fio": "Кічук Ярослав Валерійович",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Придунайська філія Приватного акціонерного товариства \"Вищий навчальний заклад \"Міжрегіональна Академія управління персоналом\"",
@@ -1236,7 +1236,7 @@
         "university_short_name": "ЧМФК ОНМУ",
         "university_name_en": "Chernomorsk Maritime Appliede College of Odessa National Maritime University",
         "is_from_crimea": "так",
-        "registration_year": "2012",
+        "registration_year": "1962",
         "university_edrpou": "38438106",
         "university_type_name": "Заклад вищої освіти",
         "university_financing_type_name": "Державна",
@@ -1264,7 +1264,7 @@
         "university_id": "2713",
         "university_parent_id": "268",
         "university_short_name": "ЗО ВСП ААЕФК УНУС",
-        "university_name_en": "Separated Structural Unit \"Ananiv Agrarian and Economical fakhovy College of Uman National University of Horticulture\"",
+        "university_name_en": "Separated Structural Unit \"Ananiv Agrarian and Economical professional College of Uman National University of Horticulture\"",
         "is_from_crimea": "так",
         "registration_year": "2000",
         "university_edrpou": "38955361",
@@ -1316,8 +1316,8 @@
         "university_site": "ktfk.duit.edu.ua",
         "university_director_post": "Директор",
         "university_director_fio": "Карадобрій Тетяна Андріївна",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Одеська міжнародна академія",
@@ -1346,7 +1346,7 @@
         "university_site": "oiatest.space",
         "university_director_post": "Ректор",
         "university_director_fio": "Приступа Тетяна Іванівна",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     }
 ]

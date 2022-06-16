@@ -30,6 +30,36 @@
         "primitki": ""
     },
     {
+        "university_name": "Відокремлений структурний підрозділ \"Ужгородський торговельно-економічний фаховий коледж Державного торговельно-економічного університету\"",
+        "university_id": "6598",
+        "university_parent_id": "6594",
+        "university_short_name": "BCП \"УТЕФК ДТЕУ\"",
+        "university_name_en": "Separated Structural Unit \"Uzhhorod Trade and Economics Qualifying College by State University of Trade and Economics\"",
+        "is_from_crimea": "",
+        "registration_year": "1945",
+        "university_edrpou": "38343800",
+        "university_type_name": "Заклад вищої освіти",
+        "university_financing_type_name": "Державна",
+        "university_governance_type_name": "Міністерство освіти і науки України",
+        "post_index": "88000",
+        "koatuu_id": "2110100000",
+        "region_name": "Закарпатська область",
+        "koatuu_name": "Ужгород",
+        "university_address": "вул. Капітульна, 1\/3",
+        "post_index_u": "88000",
+        "koatuu_id_u": "2110100000",
+        "region_name_u": "Закарпатська область",
+        "koatuu_name_u": "Ужгород",
+        "university_address_u": "вул. Капітульна, 1\/3",
+        "university_phone": "+031(22)-341-92",
+        "university_email": "utek.knteu@ukr.net",
+        "university_site": "www.utek.uz.ua",
+        "university_director_post": "Директор",
+        "university_director_fio": "Волощук Сергій Михайлович",
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
+    },
+    {
         "university_name": "Державний вищий навчальний заклад \"Ужгородський національний університет\"",
         "university_id": "207",
         "university_parent_id": null,
@@ -86,8 +116,8 @@
         "university_site": "artedu.uz.ua",
         "university_director_post": "Ректор",
         "university_director_fio": "Небесник Іван Іванович",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Комунальний заклад вищої освіти \"Ужгородський інститут культури і мистецтв\" Закарпатської обласної ради",
@@ -116,8 +146,8 @@
         "university_site": "institute-culture.uz.ua\/ua\/",
         "university_director_post": "директор",
         "university_director_fio": "Шетеля Наталія Ігорівна",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Приватний заклад вищої освіти \"Карпатський університет імені Августина Волошина\"",
@@ -174,10 +204,10 @@
         "university_phone": "(0312) 66 06 99",
         "university_email": "eesu@ukr.net",
         "university_site": "http:\/\/eesu.uz.ua",
-        "university_director_post": "в.о. ректора",
+        "university_director_post": "В.о. ректора",
         "university_director_fio": "Несух Людмила Михайлівна",
-        "close_date": "2022-04-21",
-        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
+        "close_date": null,
+        "primitki": ""
     },
     {
         "university_name": "Ужгородський гуманітарно-економічний коледж Карпатського університету імені Августина Волошина",
@@ -326,8 +356,8 @@
         "university_site": "hpc.msu.edu.ua",
         "university_director_post": "Директор",
         "university_director_fio": "Кушнір Іван Іванович",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Закарпатське відділення Навчально-наукового інституту заочного та дистанційного навчання",
@@ -386,8 +416,8 @@
         "university_site": "http:\/\/www.msu.edu.ua",
         "university_director_post": "Ректор",
         "university_director_fio": "Щербан Тетяна Дмитрівна",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Відокремлений структурний підрозділ закладу вищої освіти \"Відкритий міжнародний університет розвитку людини \"Україна\" Карпатський інститут підприємництва",

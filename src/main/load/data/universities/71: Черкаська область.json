@@ -30,6 +30,36 @@
         "primitki": ""
     },
     {
+        "university_name": "Відокремлений структурний підрозділ \"Навчально-науковий Інститут комп'ютерних технологій та дизайну Київського національного університету технологій та дизайну\"",
+        "university_id": "2938",
+        "university_parent_id": "307",
+        "university_short_name": "ВСП \"ННІКДТ КНУТД\"",
+        "university_name_en": "Separate structural subdivision \"Educational and scientific Institute of Computer Technology and Design of Kyiv National University of Technologies and Design\"",
+        "is_from_crimea": "",
+        "registration_year": "2004",
+        "university_edrpou": "33236357",
+        "university_type_name": "Заклад вищої освіти",
+        "university_financing_type_name": "Державна",
+        "university_governance_type_name": "Міністерство освіти і науки України",
+        "post_index": "18028",
+        "koatuu_id": "7110100000",
+        "region_name": "Черкаська область",
+        "koatuu_name": "Черкаси",
+        "university_address": "вул. Чорновола, 241\/2",
+        "post_index_u": "18028",
+        "koatuu_id_u": "7110100000",
+        "region_name_u": "Черкаська область",
+        "koatuu_name_u": "Черкаси",
+        "university_address_u": "вул. Чорновола, 241\/2",
+        "university_phone": "0472 64 62 11",
+        "university_email": "Friit@knutd.com.ua",
+        "university_site": "knutd.com.ua\/university\/faculties\/riit\/",
+        "university_director_post": "Декан",
+        "university_director_fio": "Натрошвілі Світлана Геннадіївна",
+        "close_date": null,
+        "primitki": ""
+    },
+    {
         "university_name": "Комунальний заклад фахової передвищої освіти \"Черкаський музичний фаховий коледж ім. С.С. Гулака-Артемовського Черкаської обласної ради\"",
         "university_id": "1127",
         "university_parent_id": null,
@@ -56,8 +86,8 @@
         "university_site": "www.cherkasy-music-art.org.ua",
         "university_director_post": "Директор",
         "university_director_fio": "Хороший Валентин Іванович",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Луганський інститут Приватного акціонерного товариства \"Вищий навчальний заклад \"Міжрегіональна Академія управління персоналом\"",
@@ -173,11 +203,11 @@
         "university_address_u": "вул. Вчительська, 40",
         "university_phone": "(06262)2-45-72, (06262)2-58-82",
         "university_email": "sebt@ukr.net",
-        "university_site": "sebt.dn.ua",
+        "university_site": "sebt.in.ua",
         "university_director_post": "В.о. директора Слов’янського енергобудівного технікуму",
         "university_director_fio": "Турка Віктор Миколайович",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Територіально відокремлений структурний підрозділ \"Черкаське навчально-наукове відділення Львівського національного університету імені Івана Франка\"",
@@ -206,36 +236,6 @@
         "university_site": "",
         "university_director_post": "В.о. директора",
         "university_director_fio": "Шабанова Олена Вікторівна",
-        "close_date": null,
-        "primitki": ""
-    },
-    {
-        "university_name": "Факультет ринкових, інформаційних та інноваційних технологій Київського національного університету технологій та дизайну",
-        "university_id": "2938",
-        "university_parent_id": "307",
-        "university_short_name": ".",
-        "university_name_en": "Kyiv National University of Technologies and Design, market, information and innovative technologies department",
-        "is_from_crimea": "",
-        "registration_year": "2004",
-        "university_edrpou": "33236357",
-        "university_type_name": "Заклад вищої освіти",
-        "university_financing_type_name": "Державна",
-        "university_governance_type_name": "Міністерство освіти і науки України",
-        "post_index": "18028",
-        "koatuu_id": "7110100000",
-        "region_name": "Черкаська область",
-        "koatuu_name": "Черкаси",
-        "university_address": "вул. Чорновола, 241\/2",
-        "post_index_u": "18028",
-        "koatuu_id_u": "7110100000",
-        "region_name_u": "Черкаська область",
-        "koatuu_name_u": "Черкаси",
-        "university_address_u": "вул. Чорновола, 241\/2",
-        "university_phone": "0472 64 62 11",
-        "university_email": "Friit@knutd.com.ua",
-        "university_site": "knutd.com.ua\/university\/faculties\/riit\/",
-        "university_director_post": "Декан",
-        "university_director_fio": "Натрошвілі Світлана Геннадіївна",
         "close_date": null,
         "primitki": ""
     },
@@ -386,8 +386,8 @@
         "university_site": "www.chdtu.edu.ua",
         "university_director_post": "ректор",
         "university_director_fio": "Григор Олег Олександрович",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Черкаський інститут пожежної безпеки імені Героїв Чорнобиля Національного університету цивільного захисту України",
@@ -476,8 +476,8 @@
         "university_site": "https:\/\/cibs.ubs.edu.ua\/",
         "university_director_post": "Директор",
         "university_director_fio": "Рогова Наталія Василівна",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Черкаський національний університет імені Богдана Хмельницького",
@@ -746,8 +746,8 @@
         "university_site": "www.udau.edu.ua",
         "university_director_post": "Ректор",
         "university_director_fio": "Непочатенко Олена Олександрівна",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Відокремлений структурний підрозділ «Городищенський фаховий коледж Уманського національного університету садівництва»",
@@ -776,8 +776,8 @@
         "university_site": "https:\/\/gorkolbuh.wixsite.com\/gorcoleg",
         "university_director_post": "Директор",
         "university_director_fio": "Чепурний Валерій Григорович",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Комунальний навчальний заклад фахової передвищої освіти \"Корсунь-Шевченківський педагогічний фаховий коледж ім. Т.Г.Шевченка Черкаської обласної ради\"",
@@ -806,8 +806,8 @@
         "university_site": "KSHPK.ORG.UA",
         "university_director_post": "Директор",
         "university_director_fio": "Семененко Людмила Миколаївна",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Відокремлений структурний підрозділ \"Тальнівський будівельно-економічний фаховий коледж Уманського національного університету садівництва\"",
@@ -836,8 +836,8 @@
         "university_site": "tbec.org.ua",
         "university_director_post": "Директор",
         "university_director_fio": "Андрющенко Андрій Миколайович",
-        "close_date": null,
-        "primitki": ""
+        "close_date": "2022-06-15",
+        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
         "university_name": "Відокремлений структурний підрозділ \"Тальянківський агротехнічний фаховий коледж Уманського національного університету садівництва\"",

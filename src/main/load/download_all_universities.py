@@ -1,27 +1,39 @@
-from django.conf import settings
-from .download_and_read_regions_info import read_regions_info
+from .download_and_read_regions import read_regions_info
 import wget
 import os
 from urllib.error import HTTPError
+from .config import UNIVERSITY_PATH, UNIVERSITY_URL, UNIVERSITIES_PATH
+from .exceptions import CantDownloadCertainUniversity, CantDownloadRegions
+import shutil
 
 
-UNIVERSITY_PATH = str(settings.BASE_DIR) + "/src/main/load/data/universities/{}: {}.json"
+def _download_university(un_path: str, un_url: str) -> None:
+    """Downloads university as json by the given url"""
+    try:
+        wget.download(un_url, un_path)
+    except HTTPError:
+        pass
 
-UNIVERSITY_URL = "https://registry.edbo.gov.ua/api/universities/?ut=1&lc={}&exp=json"
+def download_universities() -> None:
+    """Downloads all the universities as json files"""
+    try:
+        regions = read_regions_info()
+    except CantDownloadRegions:
+        print("Failed to get regions")
+        exit(1)
 
-
-def download_universities():
-    """Download all the universities as json"""
-    regions = read_regions_info()
+    shutil.rmtree(UNIVERSITIES_PATH)
+    os.mkdir(UNIVERSITIES_PATH)
 
     for region in regions:
-        now_un_path = UNIVERSITY_PATH.format(region.id, region.name)
-        now_un_url = UNIVERSITY_URL.format(region.id)
-
-        if os.path.exists(now_un_path):
-            os.remove(now_un_path)
-
         try:
-            wget.download(now_un_url, now_un_path)
-        except HTTPError:
-            continue
+            _download_university(
+                    UNIVERSITY_PATH.format(region.id, region.name), 
+                    UNIVERSITY_URL.format(region.id)
+                )
+        except:
+            raise CantDownloadCertainUniversity
+
+
+if __name__ == "__main__":
+    download_universities()

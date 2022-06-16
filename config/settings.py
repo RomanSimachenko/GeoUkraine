@@ -14,7 +14,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.getenv('DEBUG').lower() == 'true'
+DEBUG = os.getenv('DEBUG', "True").lower() == 'true'
 
 ALLOWED_HOSTS = ['*']
 
@@ -145,6 +145,6 @@ CELERY_RESULT_BACKEND = 'redis://localhost:6379'
 CELERY_BEAT_SCHEDULE = {
     "update_universities": {
         "task": "src.main.tasks.update_universities",
-        "schedule": crontab(minute="*/1"),
+        "schedule": crontab(minute="*/3"),
     },
 }

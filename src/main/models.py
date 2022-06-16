@@ -22,7 +22,7 @@ class Universities(models.Model):
     address = models.CharField(_("address"), max_length=400)
     address_u = models.CharField(
         _("address u"), max_length=400, null=True, blank=True)
-    is_from_crimea = models.BooleanField(_("is from crimea"), default=False)
+    is_from_crimea = models.CharField(_("is from crimea"), default="ні", max_length=5)
 
     type_name = models.CharField(_("type name"), max_length=100)
     financing = models.CharField(
@@ -55,7 +55,7 @@ class Universities(models.Model):
     director_fio = models.CharField(
         _("director fio"), max_length=200, null=True, blank=True)
 
-    close_date = models.DateField(_("close date"), null=True, blank=True)
+    close_date = models.CharField(_("close date"), null=True, blank=True, max_length=30)
     primitki = models.TextField(_("primitki"), null=True, blank=True)
 
     lat = models.FloatField(_("latitude"))
