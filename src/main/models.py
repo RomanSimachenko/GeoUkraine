@@ -7,7 +7,6 @@ class Universities(models.Model):
     id = models.PositiveBigIntegerField(_("id"), primary_key=True, unique=True)
     parent_id = models.PositiveBigIntegerField(
         _("parent ID"), null=True, blank=True)
-    place_id = models.CharField(_("place id"), max_length=200, null=True, blank=True)
 
     name = models.CharField(_("name"), max_length=1000)
     short_name = models.CharField(
@@ -26,9 +25,9 @@ class Universities(models.Model):
 
     type_name = models.CharField(_("type name"), max_length=100)
     financing = models.CharField(
-        _("financing"), max_length=100, null=True, blank=True)
+        _("financing"), max_length=100)
     governance = models.CharField(
-        _("governance"), max_length=200, null=True, blank=True)
+        _("governance"), max_length=200)
 
     registration_year = models.PositiveIntegerField(
         _("registration year"), null=True, blank=True)
@@ -38,9 +37,9 @@ class Universities(models.Model):
     post_index_u = models.PositiveIntegerField(
         _("post index u"), null=True, blank=True)
 
-    koatuu_id = models.PositiveIntegerField(_("koatuu id"))
-    koatuu_id_u = models.PositiveIntegerField(
-        _("koatuu id u"), null=True, blank=True)
+    katottgcode = models.CharField(_("katottgcode"), max_length=50)
+    katottgcodeu = models.CharField(
+        _("katottgcodeu"), max_length=50, null=True, blank=True)
 
     region_name = models.CharField(_("region name"), max_length=200)
     region_name_u = models.CharField(
@@ -58,6 +57,7 @@ class Universities(models.Model):
     close_date = models.CharField(_("close date"), null=True, blank=True, max_length=30)
     primitki = models.TextField(_("primitki"), null=True, blank=True)
 
+    place_id = models.CharField(_("place id"), max_length=200)
     lat = models.FloatField(_("latitude"))
     lng = models.FloatField(_("longitude"))
 
