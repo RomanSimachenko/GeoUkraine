@@ -7,7 +7,7 @@ from django.core.exceptions import ObjectDoesNotExist
 from .config import UNIVERSITIES_PATH
 from .exceptions import CantDownloadCertainUniversity, CantCreateNewUniversityObjectInDB, CantGetPlaceIDandCoordinates
 from typing import Optional
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, parse_raw_as
 
 
 class University(BaseModel):
@@ -41,10 +41,6 @@ class University(BaseModel):
     primitki: str = Field(alias='primitki')
 
 
-class Region(BaseModel):
-    universities: List[University]
-
-
 def load_universities_from_every_region() -> None:
     """Loads all the universities in each region"""
     region_json_names = os.listdir(UNIVERSITIES_PATH)
@@ -52,8 +48,8 @@ def load_universities_from_every_region() -> None:
     for name in region_json_names:
         print(name)
 
-        json_data = '{"universities": ' + open(UNIVERSITIES_PATH + '/' + name).read().strip() + '}'
-        universities = Region.parse_raw(json_data).universities
+        json_data = open(UNIVERSITIES_PATH + '/' + name).read().strip()
+        universities = parse_raw_as(List[University], json_data)
 
         region_id, region_name = (item.strip() for item in name.split(':'))
         region_id, region_name = int(region_id), region_name.split('.')[0].strip()
@@ -66,7 +62,7 @@ def load_universities_from_every_region() -> None:
             print("Failed to seed a certain university")
             exit(1)
 
-        # break # only for 1 region
+        break # only for 1 region
 
 
 def seed_db(uns: List[University], region: models.Regions) -> None:

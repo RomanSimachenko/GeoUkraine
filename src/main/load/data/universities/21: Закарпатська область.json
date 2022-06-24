@@ -296,8 +296,8 @@
         "university_site": "utei-knteu.org.ua",
         "university_director_post": "Директор",
         "university_director_fio": "Гаврилко Петро Петрович",
-        "close_date": "2022-06-15",
-        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
+        "close_date": null,
+        "primitki": ""
     },
     {
         "university_name": "Ужгородський факультет менеджменту і бізнесу Київського університету культури",
@@ -366,7 +366,7 @@
         "university_short_name": "ВСП \"ГПФК МДУ\"",
         "university_name_en": "Separate Structural Unit \"Humanitarian Pedagogical Professional College of Mukachevo State University\"",
         "is_from_crimea": "",
-        "registration_year": "2009",
+        "registration_year": "2008",
         "university_edrpou": "36246609",
         "university_type_name": "Заклад вищої освіти",
         "university_financing_type_name": "Державна",
