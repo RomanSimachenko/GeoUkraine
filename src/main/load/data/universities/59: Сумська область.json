@@ -296,8 +296,8 @@
         "university_site": "ki.sumdu.edu.ua",
         "university_director_post": "Директор",
         "university_director_fio": "Бібик Віталій Володимирович",
-        "close_date": "2022-06-15",
-        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
+        "close_date": null,
+        "primitki": ""
     },
     {
         "university_name": "Шосткинський інститут Сумського державного університету",
@@ -326,7 +326,7 @@
         "university_site": "shinst.sumdu.edu.ua",
         "university_director_post": "Директор",
         "university_director_fio": "Тугай Наталія Олександрівна",
-        "close_date": "2022-06-15",
-        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
+        "close_date": null,
+        "primitki": ""
     }
 ]

@@ -1,4 +1,3 @@
-from typing import List
 from .. import models
 from .download_all_universities import download_universities
 from .get_university_coordinates import get_coordinates
@@ -49,7 +48,7 @@ def load_universities_from_every_region() -> None:
         print(name)
 
         json_data = open(UNIVERSITIES_PATH + '/' + name).read().strip()
-        universities = parse_raw_as(List[University], json_data)
+        universities = parse_raw_as(list[University], json_data)
 
         region_id, region_name = (item.strip() for item in name.split(':'))
         region_id, region_name = int(region_id), region_name.split('.')[0].strip()
@@ -62,10 +61,10 @@ def load_universities_from_every_region() -> None:
             print("Failed to seed a certain university")
             exit(1)
 
-        break # only for 1 region
+        # break # only for 1 region
 
 
-def seed_db(uns: List[University], region: models.Regions) -> None:
+def seed_db(uns: list[University], region: models.Regions) -> None:
     """Loads Django data base using taken data"""
     for un in uns:
         try:

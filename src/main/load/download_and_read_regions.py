@@ -4,7 +4,6 @@ from typing import NamedTuple
 from pandas import read_excel
 from .config import REGIONS_PATH, REGIONS_URL
 from .exceptions import CantDownloadRegions
-from typing import List, Tuple
 
 
 class Region(NamedTuple):
@@ -23,7 +22,7 @@ def download_regions() -> None:
         raise CantDownloadRegions
 
 
-def _get_region_ids_and_names() -> Tuple[List[int], List[str]]:
+def _get_region_ids_and_names() -> tuple[list[int], list[str]]:
     """Gets region ids and names from the downloaded excel file"""
     excel_data = read_excel(REGIONS_PATH)
 
@@ -33,12 +32,12 @@ def _get_region_ids_and_names() -> Tuple[List[int], List[str]]:
     return ids, names
 
 
-def _make_regions(ids: List[int], names: List[str]) -> Tuple[Region, ...]:
+def _make_regions(ids: list[int], names: list[str]) -> tuple[Region, ...]:
     """Makes a tuple of Regions using their ids and names"""
     return tuple((Region(ids[index], names[index]) for index in range(min(len(ids), len(names)))))
 
 
-def read_regions_info() -> Tuple[Region, ...]:
+def read_regions_info() -> tuple[Region, ...]:
     download_regions()
 
     ids, names = _get_region_ids_and_names()

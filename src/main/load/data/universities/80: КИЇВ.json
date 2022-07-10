@@ -141,7 +141,7 @@
         "region_name_u": "КИЇВ",
         "koatuu_name_u": "Київ",
         "university_address_u": "вул. Березняківська, 26-Б",
-        "university_phone": "553-66-07",
+        "university_phone": "0442940002",
         "university_email": "rectorat@kumr.edu.ua",
         "university_site": "kumr.edu.ua",
         "university_director_post": "Ректор",
@@ -506,8 +506,8 @@
         "university_site": "dea.edu.ua",
         "university_director_post": "Ректор",
         "university_director_fio": "Бондар Олександр Іванович",
-        "close_date": "2022-06-15",
-        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
+        "close_date": null,
+        "primitki": ""
     },
     {
         "university_name": "Державний торговельно-економічний університет",
@@ -904,7 +904,7 @@
         "university_id": "1250",
         "university_parent_id": "41",
         "university_short_name": "Інститут УДО України КНУ ім. Т. Шевченка",
-        "university_name_en": "Іnstitute of Department of State Guard of Ukraine Taras Shevchenko National University of Kyiv",
+        "university_name_en": "Іnstitute of the Department of the State Protection of Ukraine of Taras Shevchenko National University of Kyiv",
         "is_from_crimea": "",
         "registration_year": "2010",
         "university_edrpou": "37471084",
@@ -922,7 +922,7 @@
         "koatuu_name_u": "Київ",
         "university_address_u": "вул. Володимирська, 60",
         "university_phone": "0442812509",
-        "university_email": "centr@do.gov.ua",
+        "university_email": "institute@do.gov.ua",
         "university_site": "",
         "university_director_post": "Т.в.о. начальника",
         "university_director_fio": "Удовик Микола Станіславович",
@@ -1706,8 +1706,8 @@
         "university_site": "www.dance-academy.com.ua",
         "university_director_post": "Директор",
         "university_director_fio": "Коломієць Вячеслав Анатолійович",
-        "close_date": "2022-06-15",
-        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
+        "close_date": null,
+        "primitki": ""
     },
     {
         "university_name": "Комунальний заклад вищої освіти Київської обласної ради \"Академія мистецтв імені Павла Чубинського\"",
@@ -2723,7 +2723,7 @@
         "university_address_u": "вул. Чигоріна, 20",
         "university_phone": "(044) 2867570; 5299332",
         "university_email": "kuk_kiev@ukr.net",
-        "university_site": "https:\/\/kuk-university.com",
+        "university_site": "https:\/\/kuk.edu.ua\/",
         "university_director_post": "Ректор",
         "university_director_fio": "Пилипів Володимир Іванович",
         "close_date": null,
@@ -3171,7 +3171,7 @@
         "region_name_u": "КИЇВ",
         "koatuu_name_u": "Київ",
         "university_address_u": "просп. Академіка Глушкова, 42",
-        "university_phone": "+38 (044)3380043 (42)",
+        "university_phone": "+38(067)3772377, +38(044)3380043(42)",
         "university_email": "rector@ieu.edu.ua",
         "university_site": "https:\/\/www.ieu.edu.ua",
         "university_director_post": "Виконуючий обов’язки ректора",
@@ -3536,8 +3536,8 @@
         "university_site": "uii.education\/ua",
         "university_director_post": "ректор",
         "university_director_fio": "Грушко Елла Анатоліївна",
-        "close_date": "2022-06-15",
-        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
+        "close_date": null,
+        "primitki": ""
     },
     {
         "university_name": "Українська академія перукарської майстерності та декоративної косметики Київського університету культури",

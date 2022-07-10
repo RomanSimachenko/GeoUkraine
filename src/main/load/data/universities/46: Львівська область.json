@@ -351,7 +351,7 @@
         "region_name_u": "Львівська область",
         "koatuu_name_u": "Львів",
         "university_address_u": "вул. Кульпарківська, 99",
-        "university_phone": "(032) 292-88-50",
+        "university_phone": "+38(097)097-60-01",
         "university_email": "business_law@ukr.net",
         "university_site": "lubp.com.ua",
         "university_director_post": "Ректор",
@@ -713,7 +713,7 @@
         "university_address_u": "вул. Пекарська, 69",
         "university_phone": "(032) 275-76-32",
         "university_email": "office@meduniv.lviv.ua",
-        "university_site": "http:\/\/wwww.meduniv.lviv.ua",
+        "university_site": "http:\/\/www.meduniv.lviv.ua",
         "university_director_post": "Ректор",
         "university_director_fio": "Зіменковський Борис Семенович",
         "close_date": null,
@@ -821,7 +821,7 @@
         "university_type_name": "Заклад вищої освіти",
         "university_financing_type_name": "Державна",
         "university_governance_type_name": "Міністерство оборони України",
-        "post_index": "79012",
+        "post_index": "79026",
         "katottgcode": "UA46060250010015970",
         "region_name": "Львівська область",
         "koatuu_name": "Львів",
@@ -836,8 +836,8 @@
         "university_site": "www.asv.gov.ua",
         "university_director_post": "Начальник Національної академії",
         "university_director_fio": "Ткачук Павло Петрович",
-        "close_date": "2022-06-15",
-        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
+        "close_date": null,
+        "primitki": ""
     },
     {
         "university_name": "Національний університет \"Львівська політехніка\"",
@@ -1016,7 +1016,7 @@
         "university_site": "www.ubs.edu.ua",
         "university_director_post": "Ректор",
         "university_director_fio": "Кузнєцова Анжела Ярославівна",
-        "close_date": "2022-06-15",
+        "close_date": "2022-06-27",
         "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
     },
     {
@@ -1256,8 +1256,8 @@
         "university_site": "сгт.укр",
         "university_director_post": "директор",
         "university_director_fio": "Цеватенко Анатолій Вікторович",
-        "close_date": "2022-06-15",
-        "primitki": "Увага! З дати блокування суб'єкта освітньої діяльності в ЄДЕБО інформація про нього не підтримується в повному, актуальному та достовірному стані"
+        "close_date": null,
+        "primitki": ""
     },
     {
         "university_name": "Відокремлений структурний підрозділ «Вишнянський фаховий коледж Львівського національного університету природокористування»",
